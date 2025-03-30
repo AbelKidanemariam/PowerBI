@@ -1,0 +1,23 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["HRDataset_v14"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.140.1577.0 (25.02)+00af0910c5ca19a229c472b0dfc17a2c488f6b0a
+
+ref table HRDataset_v14
+ref table DateTableTemplate_9fa0cc95-b8ae-4720-b698-8ef1297c3f40
+ref table LocalDateTable_8bb282dd-4a54-4f11-a5d8-23e1868d0b1b
+ref table LocalDateTable_001162f3-7aaa-4dba-83ac-b9e2f526f888
+ref table LocalDateTable_8495ba49-c5a4-409a-b12c-d21c7b6e90cb
+ref table LocalDateTable_6a8895e5-295f-48fa-987c-8a03b4a81f17
+
+ref cultureInfo en-US
+
